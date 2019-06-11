@@ -20,8 +20,7 @@ from keras.optimizers import Adam, SGD
 import argparse
 import cPickle as pickle
 import pandas as pd
-# from mhcnuggets.src.aa_embeddings import NUM_AAS, MHCI_MASK_LEN, MHCII_MASK_LEN
-from aa_embeddings import NUM_AAS, MHCI_MASK_LEN, MHCII_MASK_LEN 
+from mhcnuggets.src.aa_embeddings import NUM_AAS, MHCI_MASK_LEN, MHCII_MASK_LEN
 
 
 def calculate_relation(mhc, data, model, weights_dir, mass_spec, rand_negs, ic50_threshold, max_ic50, binary=False, embed_peptides=False):

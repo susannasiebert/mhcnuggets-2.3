@@ -8,27 +8,20 @@ rohit.bhattachar@gmail.com
 
 from __future__ import print_function
 import numpy as np
-# from mhcnuggets.src.models import get_predictions, mhcnuggets_lstm
-# from mhcnuggets.src.dataset import Dataset, mask_peptides
-# from mhcnuggets.src.dataset import tensorize_keras, map_proba_to_ic50
-from models import get_predictions, mhcnuggets_lstm
-from dataset import mask_peptides
-from dataset import tensorize_keras, map_proba_to_ic50
+from mhcnuggets.src.models import get_predictions, mhcnuggets_lstm
+from mhcnuggets.src.dataset import mask_peptides
+from mhcnuggets.src.dataset import tensorize_keras, map_proba_to_ic50
 
 from keras.optimizers import Adam
 import argparse
-# from mhcnuggets.src.find_closest_mhcI import closest_allele as closest_mhcI
-# from mhcnuggets.src.find_closest_mhcII import closest_allele as closest_mhcII
-from find_closest_mhcI import closest_allele as closest_mhcI
-from find_closest_mhcII import closest_allele as closest_mhcII
+from mhcnuggets.src.find_closest_mhcI import closest_allele as closest_mhcI
+from mhcnuggets.src.find_closest_mhcII import closest_allele as closest_mhcII
 
 import os
 import sys
 MHCNUGGETS_HOME = os.path.join(os.path.dirname(__file__), '..')
-# from mhcnuggets.src.aa_embeddings import NUM_AAS
-# from mhcnuggets.src.aa_embeddings import MHCI_MASK_LEN, MHCII_MASK_LEN
-from aa_embeddings import NUM_AAS
-from aa_embeddings import MHCI_MASK_LEN, MHCII_MASK_LEN
+from mhcnuggets.src.aa_embeddings import NUM_AAS
+from mhcnuggets.src.aa_embeddings import MHCI_MASK_LEN, MHCII_MASK_LEN
 
 
 def predict(class_, peptides_path, mhc, pickle_path='data/production/examples_per_allele.pkl',

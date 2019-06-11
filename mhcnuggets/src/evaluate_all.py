@@ -8,26 +8,21 @@ rohit.bhattachar@gmail.com
 
 # imports
 from __future__ import print_function
-#from mhcnuggets.src.dataset import Dataset
-from dataset import Dataset
+from mhcnuggets.src.dataset import Dataset
 import numpy as np
 import pandas as pd
 import os
 import math  #required for Pycharm
-# from mhcnuggets.src.models import get_predictions, mhcnuggets_lstm
-from models import get_predictions, mhcnuggets_lstm
+from mhcnuggets.src.models import get_predictions, mhcnuggets_lstm
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import f1_score
-#from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_score
 from scipy.stats import kendalltau
 from scipy.stats import pearsonr
 from keras.optimizers import Adam
 import argparse
-# from mhcnuggets.src.aa_embeddings import NUM_AAS
-# from mhcnuggets.src.aa_embeddings import MHCI_MASK_LEN, MHCII_MASK_LEN
-from aa_embeddings import NUM_AAS
-from aa_embeddings import MHCI_MASK_LEN, MHCII_MASK_LEN
+from mhcnuggets.src.aa_embeddings import NUM_AAS
+from mhcnuggets.src.aa_embeddings import MHCI_MASK_LEN, MHCII_MASK_LEN
 
 
 def test_all(class_, data, model_path_dir, model='lstm', mass_spec=False, ic50_threshold=500, max_ic50=50000):

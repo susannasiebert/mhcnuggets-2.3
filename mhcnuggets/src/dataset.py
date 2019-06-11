@@ -11,20 +11,13 @@ import math
 import os
 import string
 from sklearn.model_selection import train_test_split
-# from mhcnuggets.src.aa_embeddings import AA_ONEHOT
-# from mhcnuggets.src.aa_embeddings import AA_SOFTHOT
-# from mhcnuggets.src.aa_embeddings import AA_VOCAB
-# from mhcnuggets.src.aa_embeddings import AA_INV_VOCAB
-# from mhcnuggets.src.aa_embeddings import MASK_VALUE
-# from mhcnuggets.src.aa_embeddings import MHCI_MASK_LEN
-# from mhcnuggets.src.aa_embeddings import MHCII_MASK_LEN
-from aa_embeddings import AA_ONEHOT
-from aa_embeddings import AA_SOFTHOT
-from aa_embeddings import AA_VOCAB
-from aa_embeddings import AA_INV_VOCAB
-from aa_embeddings import MASK_VALUE
-from aa_embeddings import MHCI_MASK_LEN
-from aa_embeddings import MHCII_MASK_LEN
+from mhcnuggets.src.aa_embeddings import AA_ONEHOT
+from mhcnuggets.src.aa_embeddings import AA_SOFTHOT
+from mhcnuggets.src.aa_embeddings import AA_VOCAB
+from mhcnuggets.src.aa_embeddings import AA_INV_VOCAB
+from mhcnuggets.src.aa_embeddings import MASK_VALUE
+from mhcnuggets.src.aa_embeddings import MHCI_MASK_LEN
+from mhcnuggets.src.aa_embeddings import MHCII_MASK_LEN
 
 import numpy as np
 

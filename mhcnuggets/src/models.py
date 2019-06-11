@@ -15,10 +15,8 @@ from keras.layers.recurrent import LSTM, GRU
 import math
 from keras.layers import Input
 from keras.layers import Conv1D, GlobalMaxPooling1D
-# from mhcnuggets.src.aa_embeddings import MASK_VALUE
-# from mhcnuggets.src.aa_embeddings import NUM_AAS, MHCI_MASK_LEN, MHCII_MASK_LEN
-from aa_embeddings import MASK_VALUE
-from aa_embeddings import NUM_AAS, MHCI_MASK_LEN, MHCII_MASK_LEN
+from mhcnuggets.src.aa_embeddings import MASK_VALUE
+from mhcnuggets.src.aa_embeddings import NUM_AAS, MHCI_MASK_LEN, MHCII_MASK_LEN
 from keras.layers import dot, concatenate
 import keras.backend as K
 
