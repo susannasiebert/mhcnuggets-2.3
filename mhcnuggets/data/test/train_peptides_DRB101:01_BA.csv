@@ -1,6 +1,0 @@
-mhc,peptide,IC50(nM),measurement_type,measurement_source,original_allele
-HLA-DRB1*01:01,DLCCSLDHSKWGPFM,1360.0,quantitative,Sette - purified MHC/competitive/radioactivity,HLA-DRB1*01:01
-HLA-DRB1*01:01,DLCNICWEQLPTCIT,96.0,quantitative,Sette - purified MHC/competitive/radioactivity,HLA-DRB1*01:01
-HLA-DRB1*01:01,DLCVLIDINSESLSL,467.0,quantitative,Sette - purified MHC/competitive/radioactivity,HLA-DRB1*01:01
-HLA-DRB1*01:01,DLDKKETVWHLEE,50000.0,qualitative,Gorga - cellular MHC/competitive/fluorescence,HLA-DRB1*01:01
-HLA-DRB1*01:01,DLERAEERAETGESK,50000.0,qualitative,Delgado - purified MHC/direct/fluorescence,HLA-DRB1*01:01
