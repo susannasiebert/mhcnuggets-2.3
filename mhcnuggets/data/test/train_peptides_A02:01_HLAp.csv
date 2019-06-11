@@ -1,0 +1,6 @@
+mhc,peptide,IC50(nM),measurement_type,measurement_source,original_allele
+HLA-A*02:01,VMTLVSTYL,499.0,qualitative,Abelin - cellular,MHC/mass spectrometry,N/A
+HLA-A*02:01,FLGIHVFLV,499.0,qualitative,Abelin - cellular,MHC/mass spectrometry,N/A
+HLA-A*02:01,SLFSEETPVVL,499.0,qualitative,Abelin - cellular,MHC/mass spectrometry,N/A
+HLA-A*02:01,ADQDGYYQTTLPAI,5000,qualitative,Abelin - cellular,MHC/random,N/A
+HLA-A*02:01,VKHLEEIVEKLK,5000,qualitative,Abelin - cellular,MHC/random,N/A

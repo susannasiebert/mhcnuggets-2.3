@@ -1,0 +1,6 @@
+mhc,peptide,IC50(nM),measurement_type,measurement_source,original_allele
+HLA-A*02:01,AAAATCALV,41.0,quantitative,Yewdell - purified MHC/competitive/radioactivity,HLA-A*02:01
+HLA-A*02:01,AADLTQIFEV,16.5,quantitative,Sette - purified MHC/competitive/radioactivity,HLA-A*02:01
+HLA-A*02:01,AADLTQIFEV,17.0,quantitative,Yewdell - purified MHC/competitive/radioactivity,HLA-A*02:01
+HLA-A*02:01,LADVCNWTY,20000.0,quantitative,Buus - purified MHC/direct/fluorescence,HLA-A*02:01
+HLA-A*02:01,LAEHISDSI,6050.0,quantitative,Sette - purified MHC/competitive/radioactivity,HLA-A*02:01
