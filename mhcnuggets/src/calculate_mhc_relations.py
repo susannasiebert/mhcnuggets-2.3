@@ -7,11 +7,11 @@ rohit.bhattachar@gmail.com
 '''
 
 from __future__ import print_function
-from dataset import Dataset
+from mhcnuggets.src.dataset import Dataset
 import numpy as np
 import os
-from models import get_predictions
-import models
+from mhcnuggets.src.models import get_predictions
+import mhcnuggets.src.models
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import f1_score
 from sklearn.metrics import precision_score
