@@ -9,6 +9,7 @@ rohit.bhattachar@gmail.com
 
 from mhcnuggets.src.dataset import Dataset
 from mhcnuggets.src.supertypes import supertype_mhcI_allele, supertype_mhcI_group, supertype_hla_C_allele, supertype_hla_C_allele_clade
+
 import argparse
 
 try:
