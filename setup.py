@@ -7,7 +7,7 @@ def readme():
 
 
 setup(name='mhcnuggets',
-      version='2.3',
+      version='2.3.1',
       description='MHCnuggets: Neoantigen peptide MHC binding prediction for class I and II',
       long_description=readme(),
       url='http://karchinlab.org/apps/mhcnuggets.html', # TODO
