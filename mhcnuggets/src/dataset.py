@@ -183,7 +183,7 @@ class Dataset():
 
         in_file = open(filename)
         raw_header = in_file.readline().strip()
-        header = filter(lambda x: x in string.printable, raw_header).split(sep)  #clean nasty invisible characters
+        header = ''.join(list(filter(lambda x: x in string.printable, raw_header))).split(sep)  #clean nasty invisible characters
         allele_ind = header.index(allele_column_name)
         peptide_ind = header.index(peptide_column_name)
         affinity_ind = header.index(affinity_column_name)
