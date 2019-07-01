@@ -19,6 +19,7 @@ pip install mhcnuggets
 * numpy
 * scipy
 * scikit-learn
+* pandas
 * tensorflow
 * keras
 
